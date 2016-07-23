@@ -44,12 +44,13 @@ exports.register = function(server, options, next) {
             method: 'POST',
             path: '/tasks',
             config: {
-                handler: tasksController.store,
-                validate: {
-                    payload: Joi.object().length(1).keys({
-                        task: Joi.string().required().min(1).max(60)
-                    })
-                }
+                handler: tasksController.store
+                // ,
+                // validate: {
+                //     payload: Joi.object().length(1).keys({
+                //         task: Joi.string().required().min(1).max(60)
+                //     })
+                // }
             }
         },
         {
