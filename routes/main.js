@@ -8,7 +8,7 @@ exports.register = function(server, options, next) {
 
     // Binds all methods
     // similar to doing `tasksController.index.bind(tasksController);`
-    // when declaring handlers
+    // when declaring handlerss
 
 
     // Declare routes
@@ -18,7 +18,7 @@ exports.register = function(server, options, next) {
           path: '/{path*}',
           handler: {
          		directory: {
-                    path: './public',
+                    path: './public/inex.html',
                     listing: false,
                     index: true
                 }
