@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'test') {
 // Create server
 server.connection({
     host: process.env.IP || "0.0.0.0",
-    port: rocess.env.PORT || 3000
+    port: process.env.PORT || 3000
 });
 
 // Add routes
