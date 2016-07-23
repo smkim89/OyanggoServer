@@ -1,0 +1,35 @@
+{
+  "name": "hapi-restful-api-example",
+  "version": "1.0.2",
+  "description": "An example of a restful api built using hapi.js",
+  "main": "index.js",
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "api",
+    "restful",
+    "example"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/lab --assert should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcorral/hapi-restful-api-example.git"
+  },
+  "author": "Rafael Corral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcorral/hapi-restful-api-example/issues"
+  },
+  "homepage": "https://github.com/rcorral/hapi-restful-api-example",
+  "dependencies": {
+    "boom": "^2.6.0",
+    "hapi": "~8.0.0",
+    "joi": "^5.0.1"
+  },
+  "devDependencies": {
+    "lab": "^5.0.2",
+    "should": "^4.3.0"
+  }
+}
