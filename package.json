@@ -15,14 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rcorral/hapi-restful-api-example.git"
+    "url": "https://github.com/smkim89/OyanggoServer.git"
   },
   "author": "Rafael Corral",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rcorral/hapi-restful-api-example/issues"
-  },
-  "homepage": "https://github.com/rcorral/hapi-restful-api-example",
+  "homepage": "https://github.com/smkim89/OyanggoServer.git",
   "dependencies": {
     "boom": "^2.6.0",
     "hapi": "~8.0.0",
