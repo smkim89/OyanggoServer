@@ -20,6 +20,12 @@ server.connection({
 // Add routes
 var plugins = [
     {
+        register: require('./routes/main.js'),
+        options: {
+            database: database
+        }
+    },
+    {
         register: require('./routes/tasks.js'),
         options: {
             database: database
