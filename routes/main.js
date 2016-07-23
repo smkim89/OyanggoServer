@@ -18,7 +18,7 @@ exports.register = function(server, options, next) {
           path: '/{path*}',
           handler: {
          		directory: {
-                    path: './public/inex.html',
+                    path: './public',
                     listing: false,
                     index: true
                 }
