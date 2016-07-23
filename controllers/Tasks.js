@@ -37,7 +37,7 @@ TasksController.prototype.show = function(request, reply) {
 // [POST] /tasks
 TasksController.prototype.store = function(request, reply) {
     try {
-        var value = request.payload.task;
+        //var value = request.payload.task;
 
         //reply(this.tasksModel.addTask(value))
         //    .created();
