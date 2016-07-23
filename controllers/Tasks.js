@@ -42,7 +42,7 @@ TasksController.prototype.store = function(request, reply) {
         //reply(this.tasksModel.addTask(value))
         //    .created();
 
-        reply({"aaa":"bbb"});
+        reply({"aaa":"bbb"}).code(200);
     } catch (e) {
         reply(Boom.badRequest(e.message));
     }
