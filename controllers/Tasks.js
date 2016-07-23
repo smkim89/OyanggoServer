@@ -37,16 +37,13 @@ TasksController.prototype.show = function(request, reply) {
 // [POST] /tasks
 TasksController.prototype.store = function(request, reply) {
     try {
-      console.log('hihi1');
         //var value = request.payload.task;
-
         //reply(this.tasksModel.addTask(value))
         //    .created();
-
         reply({"aaa":"bbb"}).code(200);
-        console.log('hihi2');
+
     } catch (e) {
-      console.log('hihi3');
+
         reply(Boom.badRequest(e.message));
     }
 };
